@@ -1,0 +1,21 @@
+{
+  "name": "ca_initiative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.7"
+  },
+  "dependencies": {
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  }
+}
